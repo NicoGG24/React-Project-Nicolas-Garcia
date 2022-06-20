@@ -1,0 +1,33 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+li {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+li a {
+    text-decoration: none;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    color: orangered;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.logoecommerce {
+    width: 10%;
+}
+
+.cartlogo {
+    display: flex;
+    align-items: center;
+}
